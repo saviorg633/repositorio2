@@ -38,4 +38,25 @@ public class Calculadora {
     
 
     
+    public int suma(){
+        resul=num1+num2;
+        return num1+num2;
+    }
+    
+    public int resta(){
+        resul=num1-num2;
+        return num1-num2;
+    }
+    
+    
+    public int multiplicacion(){
+        resul=num1*num2;
+        return num1*num2;
+    }
+    
+    
+    public int division(){
+        resul=num1/num2;
+        return num1/num2;
+    }
 }
