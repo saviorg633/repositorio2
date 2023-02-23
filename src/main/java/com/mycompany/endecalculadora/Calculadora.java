@@ -11,4 +11,25 @@ package com.mycompany.endecalculadora;
 public class Calculadora {
     private int num1, num2, resul;
     
+    public int suma(){
+        resul=num1+num2;
+        return num1+num2;
+    }
+    
+    public int resta(){
+        resul=num1-num2;
+        return num1-num2;
+    }
+    
+    
+    public int multiplicacion(){
+        resul=num1*num2;
+        return num1*num2;
+    }
+    
+    
+    public int division(){
+        resul=num1/num2;
+        return num1/num2;
+    }
 }
